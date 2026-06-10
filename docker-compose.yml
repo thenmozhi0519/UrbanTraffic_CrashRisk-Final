@@ -1,0 +1,45 @@
+services:
+
+  spark_engine:
+    build: .
+    container_name: crash_spark_engine
+
+    volumes:
+      - .:/workspace
+
+    working_dir: /workspace
+
+    command: tail -f /dev/null
+
+
+
+  airflow:
+    image: apache/airflow:2.9.3
+
+    container_name: crash_airflow
+
+    user: root
+
+    ports:
+      - "8060:8080"
+
+    environment:
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - _AIRFLOW_WWW_USER_USERNAME=admin
+      - _AIRFLOW_WWW_USER_PASSWORD=admin123
+
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - .:/workspace
+      - /var/run/docker.sock:/var/run/docker.sock
+
+    privileged: true
+
+    command: >
+      bash -c "
+      curl -fsSL https://download.docker.com/linux/static/stable/x86_64/docker-26.1.4.tgz | tar -xzC /usr/local/bin --strip-components=1 docker/docker &&
+      chmod 666 /var/run/docker.sock &&
+
+      airflow standalone
+      "
