@@ -1,0 +1,93 @@
+## our Complete Year-wise Data
+
+```
+2013 →       2  records
+2014 →       6  records
+2015 →   9,781  records
+2016 →  44,078  records
+2017 →  83,412  records
+2018 → 118,343  records
+2019 → 116,751  records
+2020 →  91,472  records  ← COVID dip
+2021 → 107,881  records
+2022 → 107,375  records
+2023 → 109,636  records
+2024 → 110,783  records
+2025 → 107,893  records
+2026 →  73,270  records  ← partial year
+─────────────────────────
+TOTAL → 1,080,683 records
+```
+
+---
+
+## Why 2013 = Only 2 Records?
+
+> "Chicago started digitizing crash records around 2015-2016. Before that very few records were digitally available. So 2013 has only 2 records and 2014 has only 6 — the dataset was just starting."
+
+---
+
+## Why 2015 = 9,781 and 2016 = 44,078?
+
+> "Data collection was ramping up. 2015 partial digitization started, 2016 more records entered the system. By 2017-2018 the system was fully operational — that's why you see 83,000+ and 118,000+ records."
+
+---
+
+## Growth Pattern
+
+```
+2013 →       2   ← just started
+2014 →       6   ← very few
+2015 →   9,781   ← ramping up
+2016 →  44,078   ← growing fast
+2017 →  83,412   ← stable
+2018 → 118,343   ← peak! highest year
+2019 → 116,751   ← stable high
+2020 →  91,472   ← COVID dip 📉
+2021 → 107,881   ← recovery 📈
+2022 → 107,375   ← stable
+2023 → 109,636   ← stable
+2024 → 110,783   ← stable
+2025 → 107,893   ← stable
+2026 →  73,270   ← incomplete year
+```
+
+---
+
+## 3 Key Insights From This Data
+
+---
+
+**Insight 1 — Data Availability**
+> "Chicago crash data is fully reliable only from 2016 onwards. Before 2015 the data is incomplete — only 2 and 6 records show the digitization was just beginning."
+
+---
+
+**Insight 2 — COVID Impact**
+> "2020 clearly shows COVID lockdown effect — dropped from 116,751 in 2019 to 91,472 in 2020. That's 25,000 less crashes — directly because of reduced traffic during lockdown."
+
+---
+
+**Insight 3 — 2018 Was Worst Year**
+> "2018 had the highest crashes — 118,343. Could indicate more vehicles, road conditions, or population growth that year."
+
+---
+
+## overview
+
+> *"My pipeline collected **1,080,683 crash records spanning from 2013 to 2026** — that's over **10 lakh records across 13 years!** However meaningful data starts from 2016 as Chicago began full digital recording then. The data shows interesting patterns — 2018 was the peak year with 118,343 crashes, 2020 shows a clear COVID lockdown dip dropping to 91,472, and 2026 is partial since data collection is ongoing. This historical depth makes the risk index and hotspot analysis much more reliable and accurate."*
+
+---
+
+## Key Numbers
+
+```
+Total records    → 1,080,683 (10+ lakh)
+Years covered    → 2013 to 2026 (13 years)
+Reliable from    → 2016 onwards
+Peak year        → 2018 (118,343 crashes)
+COVID dip        → 2020 (91,472 crashes)
+Latest year      → 2026 (73,270 — partial)
+```
+
+**This is a very strong dataset — 10 lakh records over 13 years shows my pipeline is production scale!**
